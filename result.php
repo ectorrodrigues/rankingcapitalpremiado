@@ -58,8 +58,8 @@
 
       .col-1{
         padding-top: 347px;
-        width: 20%;
-        margin-left: 20.8%;
+        width: 19%;
+        margin-left: 21%;
         text-align: left;
       }
 
@@ -68,7 +68,7 @@
       }
 
       .col-3{
-        width: 8.3%;
+        width: 8.5%;
 
       }
 
@@ -78,7 +78,7 @@
       }
 
       .col-5{
-        width: 9%;
+        width: 9.5%;
 
       }
 
