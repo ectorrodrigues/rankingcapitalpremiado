@@ -45,76 +45,39 @@
 
 
       .col-1, .col-2, .col-3, .col-4, .col-5, .col-6{
-        padding-top: 355.5px;
+        padding-top: 347px;
         font-weight: 400;
         display: inline-block !important;
-        font-size: 13px;
+        font-size: 16px;
         color:#fff;
         vertical-align: text-top;
-        line-height: 27px;
+        line-height: 28px;
         text-align: right;
       }
 
 
       .col-1{
-        padding-top: 347px;
-        width: 20%;
-        margin-left: 20.8%;
+        padding-top: 339px;
+        width: 23%;
+        margin-left: 22%;
         text-align: left;
       }
 
       .col-2{
-        width: 8%;
+        width: 12%;
       }
 
       .col-3{
-        width: 8.3%;
+        width: 12.3%;
 
       }
 
       .col-4{
-        width: 4.5%;
+        width: 6.5%;
 
       }
 
-      .col-5{
-        width: 9%;
 
-      }
-
-      .col-6{
-        width: 5%;
-
-      }
-
-      .titulo1{
-        width: 30%;
-        padding-left: 4.5%;
-      }
-
-      .titulo2{
-        width: 16%;
-      }
-
-      .titulo3{
-        width: 16%;
-
-      }
-
-      .titulo4{
-        width: 7%;
-
-      }
-
-      .titulo{
-        width: 16%;
-
-      }
-
-      .titulo{
-        width: 7%;
-
-      }
 
       .label{
         font-size:18px;
@@ -271,12 +234,6 @@
     $porcentagem = $_POST['porcentagem'];
     $porcentagem = nl2br($porcentagem);
 
-    $coluna5 = $_POST['coluna5'];
-    $coluna5 = nl2br($coluna5);
-
-    $coluna6 = $_POST['coluna6'];
-    $coluna6 = nl2br($coluna6);
-
     $data = $_POST['data'];
 
     /*$nome1    = $_POST['nome1'];
@@ -412,8 +369,6 @@
         </div>-->
         <?= $totalrecebido ?>
       </div>
-      <?php $bg_color= ''; ?>
-
 
 
       <div class="col-4" >
@@ -425,66 +380,9 @@
 
       </div>
 
-
-      <div class="col-5" >
-        <!--<div class="titulo5">
-           //$titulo5
-        </div>-->
-          <?= $coluna5?>
-
-
-      </div>
-
-
-      <div class="col-6 cores" >
-        <!--<div class="titulo6">
-           //$titulo6
-        </div>-->
-          <?=$coluna6?>
-
-
-      </div>
-
     </div>
 
 
-
-
-<script type="text/javascript">
-
-
-    var quantidade = '19';
-
-      $(document).ready(function(){
-
-        $('.cores').on('change',function(){
-          var valor = $(this).val();
-            for (var i=0; i<quantidade; i++):
-
-                if ($coluna6 >= 100){
-                  $(this).addClass("verde").removeClass("cores");
-
-                }else if ($coluna6 < 100 && $coluna6 >= 50) {
-                  $(this).addClass("amarelo").removeClass("cores");
-
-
-                } else if ($coluna6 < 50 && $coluna6 > 0) {
-                  $(this).addClass("laranja").removeClass("cores");
-
-
-                } else if ($coluna6 <= 0) {
-                  $(this).addClass("vermelho").removeClass("cores");
-
-                }
-
-              endfor;
-
-        });
-
-      });
-
-
-</script>
 
 <!--
   <div class="btn" onclick="createimg()">Gerar Imagem</div>
