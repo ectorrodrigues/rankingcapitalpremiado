@@ -96,9 +96,13 @@
       <form class="col-12" action="result.php" method="post" enctype="multipart/form-data">
 
         <div class="row justify-content-center py-4">
-          <div class="col-10 px-5">
+          <div class="col-5 px-5">
             <label for="data">Data:</label><br>
             <input type="text" name="data" value="" placeholder="Digite a data do Ranking">
+          </div>
+          <div class="col-5 px-5">
+            <label for="regional">Regional:</label><br>
+            <input type="text" name="regional" value="" placeholder="Ex: Regional 1">
           </div>
         </div>
 

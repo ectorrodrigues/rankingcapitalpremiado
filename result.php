@@ -108,6 +108,15 @@
         text-align: right;
         font-weight: 400;
       }
+      .regional{
+        position: absolute;
+        margin-top: 240px;
+        margin-left: 60px;
+        font-size: 30px;
+        color: #3aaa35;
+        text-align: right;
+        font-weight: 400;
+      }
 
       .btn{
         padding: 25px 30px;
@@ -235,6 +244,9 @@
     $coluna6 = $_POST['coluna6'];
     $coluna6 = nl2br($coluna6);
 
+    $regional = $_POST['regional'];
+    $regional = nl2br($regional);
+
     $data = $_POST['data'];
 
      ?>
@@ -266,6 +278,11 @@
     <button type="button" name="button" class="btn" onclick="createimg()"><i class="fa fa-arrow-down" aria-hidden="true"></i> Baixar Imagem</button>
 
     <div id="capture">
+
+      <div class="regional">
+              <?= $regional ?>
+            </div>
+
 
       <div class="date">
         <?= $data ?>
