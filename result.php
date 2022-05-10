@@ -73,12 +73,13 @@
       }
 
       .col-4{
-        width: 8%;
+        width: 7.5%;
+        text-align: center;
 
       }
 
       .col-5{
-        width: 14%;
+        width: 14.5%;
 
       }
       .col-6{
