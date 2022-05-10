@@ -102,9 +102,9 @@
 
       .date{
         position: absolute;
-        margin-top: 1150px;
+        margin-top: 1157px;
         margin-left: 67px;
-        font-size: 32px;
+        font-size: 26px;
         color: #e1b66b;
         text-align: right;
         font-weight: 400;
