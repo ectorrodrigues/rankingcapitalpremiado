@@ -45,7 +45,7 @@
 
 
       .col-1, .col-2, .col-3, .col-4, .col-5, .col-6{
-        padding-top: 355.5px;
+        padding-top: 355px;
         font-weight: 400;
         display: inline-block !important;
         font-size: 13px;
@@ -58,33 +58,32 @@
 
       .col-1{
         padding-top: 347px;
-        width: 28%;
+        width: 26%;
         margin-left: 5%;
         text-align: left;
       }
 
       .col-2{
-        width: 13.5%;
+        width: 14.5%;
       }
 
       .col-3{
-        width: 13%;
+        width: 14.5%;
 
       }
 
       .col-4{
-        width: 7.5%;
+        margin-left: 10px;
+        width: 8%;
         text-align: center;
-
       }
 
       .col-5{
-        width: 14.5%;
+        width: 14%;
 
       }
       .col-6{
-        width: 6%;
-        margin-left: 20px;
+        width: 7%;
         text-align: center;
       }
 
@@ -112,8 +111,8 @@
       .regional{
         position: absolute;
         margin-top: 240px;
-        margin-left: 60px;
-        font-size: 30px;
+        margin-left: 50px;
+        font-size: 28px;
         color: #3aaa35;
         text-align: right;
         font-weight: 400;
